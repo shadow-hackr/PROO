@@ -1,8 +1,8 @@
 #!/usr/bin/python
 # -*- coding: utf-8
 
-#Author Azim Vau (Mr. Error)
-#USE YOUR BRAIN MAKE GOOGLE YOUR FRIEND :)
+#Author KASHMIRI HACKER (Mr. HACKER)
+#USE ALONE CODER KASHMIRI TIGER :)
 
 import os
 try:
@@ -60,7 +60,7 @@ def logo():
 	os.system("clear")
 	ip = requests.get('https://api.ipify.org').text.strip()
 	loc = requests.get('https://ipapi.com/ip_api.php?ip=' + ip, headers={'Referer': 'https://ip-api.com/', 'Content-Type': 'application/json; charset=utf-8', 'User-Agent': 'Mozilla/5.0 (Linux; Android 7.1.2; Redmi 4X) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.92 Mobile Safari/537.36'}).json()['country_name'].lower()
-	print("\n\n    ▄▄▄      ▒███████▒ ██▓ ███▄ ▄███▓\n   ▒████▄    ▒ ▒ ▒ ▄▀░▓██▒▓██▒▀█▀ ██▒\n   ▒██  ▀█▄  ░ ▒ ▄▀▒░ ▒██▒▓██    ▓██░\n   ░██▄▄▄▄██   ▄▀▒   ░░██░▒██    ▒██ \n    ▓█   ▓██▒▒███████▒░██░▒██▒   ░██▒\n    ▒▒   ▓▒█░░▒▒ ▓░▒░▒░▓  ░ ▒░   ░  ░\n     ▒   ▒▒ ░░░▒ ▒ ░ ▒ ▒ ░░  ░      ░\n     ░   ▒   ░ ░ ░ ░ ░ ▒ ░░      ░   \n         ░  ░  ░ ░     ░         ░   \n             ░                       \n\n╔═══════════════════════════════════════════╗\n║  Author   : Mahmud Azim                   ║\n║  Github   : https://github.com/Azim-Vau   ║           \n║  Fb       : https://me.fb/AzimVau69       ║           \n╚═══════════════════════════════════════════╝\n")
+	print("\n\n    ▄▄▄      ▒███SHADOW████▒ ██▓ ███▄ ▄HACKER███▓\n   ▒████▄    ▒ALONE ▒ ▒ ▄▀░▓██▒▓CODER██▒▀█▀ ██▒\n   ▒██  ▀█▄  ░ ALONE▒ ▄▀▒░ ▒██▒▓██FIGTHER    ▓██░\n   ░██▄▄▄▄█ITS█   ▄▀▒   ░░██░▒██    ▒██ \n    ▓█   ▓██▒KASHMIRI▒███████▒░██░▒██▒   ░██▒\n    ▒▒   ▓▒█░░▒▒TIGER ▓░▒░▒░▓  ░ ▒░   ░  ░\n     ▒   ▒▒ ░░░▒ ▒ ░BLACK  ▒ ▒ ░░  ░      ░\n     ░   ▒   ░ ░ ░ Hat░ ░ ▒ ░░      ░   \n         ░  ░  ░ ░     ░         ░   \n             ░                       \n\n╔═══════════════════════════════════════════╗\n║  Author   : SHADOW HACKER                   ║\n║  Github   : https://github.com/shadow   ║           \n║  Fb       : https://me.fb/CODER B       ║           \n╚═══════════════════════════════════════════╝\n")
 	print(" [*] Ip Address : \x1b[1;92m") + ip
 	print("\033[0m [*] County Region : \x1b[1;92m") + loc
 	print("\033[0m")
